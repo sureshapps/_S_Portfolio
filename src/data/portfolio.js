@@ -7,8 +7,8 @@ const GPA = '3.65/4';
 export const portfolioData = {
     personalInfo: {
         name: "SURESH KALEYANNAN",
-        tagline: "Creative Desinger & Full Stack Developer",
-        institution: "UNIVERSITY TUN ABDUL RAZAK, MALAYSIA",
+tagline: "Creative Designer & Full Stack Developer",
+institution: "UNIVERSITY TUN ABDUL RAZAK, MALAYSIA"
         location: "Kuala Lumpur, Malaysia",
         email: "hello@suresh.app",
         phone: "+60 104368680",
@@ -24,22 +24,29 @@ export const portfolioData = {
             revision: "R2.0",
             serial: "SKS-1988-DV-2110",
             assembled: "KUALA LUMPUR, MALAYSIA",
-            status: "DEVELOPMENT PROSESSING"
+status: "DEVELOPMENT PROCESSING"
         },
         socials: {
             github: GITHUB_URL,
             linkedin: LINKEDIN_URL
         },
         // Motherboard BIOS Diagnostics Stats
-        stats: [
+                stats: [
             { label: "CORE", value: "ONLINE" },
             { label: "MODULES", value: "8 ONLINE" },
             { label: "UPTIME", value: "100%" },
             { label: "BUILD", value: "2026.09" }
         ],
- heroLine:“Full Stack Developer and AI Enthusiast with hands-on experience building scalable web applications, automation systems, and intelligent solutions.”
-     bio:“Passionate Full Stack Developer with practical experience in designing, developing, and deploying modern web applications and AI-driven solutions. Skilled in Python, Django, React.js, JavaScript, TensorFlow, and Scikit-learn, with a strong foundation in software architecture, database design, and machine learning.Experienced in building responsive user interfaces, RESTful APIs, automation tools, and data-driven applications. Continuously exploring emerging technologies and best practices to create efficient, scalable, and impactful digital products that solve real-world challenges.” 
-    languages: [
+
+        heroLine: "Full Stack Developer and AI Enthusiast with hands-on experience building scalable web applications, automation systems, and intelligent solutions.",
+
+        bio: `Passionate Full Stack Developer with practical experience in designing, developing, and deploying modern web applications and AI-driven solutions.
+
+Skilled in Python, Django, React.js, JavaScript, TensorFlow, and Scikit-learn, with a strong foundation in software architecture, database design, and machine learning.
+
+Experienced in building responsive user interfaces, RESTful APIs, automation tools, and data-driven applications. Continuously exploring emerging technologies and best practices to create efficient, scalable, and impactful digital products that solve real-world challenges.`,
+
+        languages: [
             { name: "English", level: "Fluent" },
             { name: "Tamil", level: "Native" },
             { name: "Malay", level: "Advanced" }
@@ -261,26 +268,26 @@ export const portfolioData = {
             }
         ]
     },
-    education: [
-        {
-            degree: "Bachelor of Technology in Electronics and Communication Engineering with Specialization in Data Science",
-            institution: "SRM Institute of Science and Technology, Ramapuram, Chennai",
-            duration: "2024 – 2028",
-            grade: `CGPA: ${GPA} (Honors)`
-        },
-        {
-            degree: "Higher Secondary Certificate (Class XII)",
-            institution: "Vivekananda Vidyalaya, Chennai, Tamil Nadu",
-            duration: "2024",
-            grade: "Score: 82%"
-        },
-        {
-            degree: "Secondary School Examination (Class X)",
-            institution: "Vivekananda Vidyalaya, Chennai, Tamil Nadu",
-            duration: "2022",
-            grade: "Score: 92%"
-        }
-    ],
+education: [
+    {
+        degree: "Bachelor of Information Technology",
+        institution: "UNIVERSITY TUN ABDUL RAZAK, MALAYSIA",
+        duration: "2007 – 2011",
+        grade: `CGPA: ${GPA} (Honors)`
+    },
+    {
+        degree: "Foundation of Information Technology",
+        institution: "UNIVERSITY TUN ABDUL RAZAK, MALAYSIA",
+        duration: "2006",
+        grade: "CGPA: 3.24 / 4.00"
+    },
+    {
+        degree: "Sijil Pelajaran Malaysia (SPM)",
+        institution: "SMK Sri Andalas, Klang, Selangor, Malaysia",
+        duration: "2005",
+        grade: "PASS"
+    }
+],
     // Experience — Structured as Firmware Updates
     timeline: [
         {
