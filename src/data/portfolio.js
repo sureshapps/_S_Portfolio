@@ -8,8 +8,8 @@ export const portfolioData = {
     personalInfo: {
         name: "SURESH KALEYANNAN",
 tagline: "Creative Designer & Full Stack Developer",
-institution: "UNIVERSITY TUN ABDUL RAZAK, MALAYSIA"
-        location: "Kuala Lumpur, Malaysia",
+institution: "UNIVERSITY TUN ABDUL RAZAK, MALAYSIA",
+location: "Kuala Lumpur, Malaysia",
         email: "hello@suresh.app",
         phone: "+60 104368680",
         // Board Identity — Motherboard Serial & Build Specifications
