@@ -2,29 +2,29 @@
 import { LINKEDIN_URL, GITHUB_URL } from '../config.js';
 
 // Single source of truth for the GPA value
-const GPA = '9.48/10';
+const GPA = '3.65/4';
 
 export const portfolioData = {
     personalInfo: {
-        name: "PARAMESHWARAN S",
-        tagline: "ECE + Data Science · AI Hardware & Systems Developer",
-        institution: "SRM INSTITUTE OF SCIENCE AND TECHNOLOGY, RAMAPURAM",
-        location: "Chennai, Tamil Nadu, India",
-        email: "hunterparama@gmail.com",
-        phone: "+91 9176020504",
+        name: "SURESH KALEYANNAN",
+        tagline: "Creative Desinger & Full Stack Developer",
+        institution: "UNIVERSITY TUN ABDUL RAZAK, MALAYSIA",
+        location: "Kuala Lumpur, Malaysia",
+        email: "hello@suresh.app",
+        phone: "+60 104368680",
         // Board Identity — Motherboard Serial & Build Specifications
-        boardSerial: "PRM-2026-DEV-001",
-        boardModel: "PRM-DEV-BOARD V2.0",
+        boardSerial: "SKS-1988-DV-2110",
+        boardModel: "SKS-DV-BOARD V2.0",
         boardRevision: "R2.0",
         firmwareVersion: "v2.3.1",
-        buildDate: "2026.08",
+        buildDate: "2026.09",
         manufacturingLabel: {
-            brand: "PARAMA LABS",
-            model: "PRM-DEV-BOARD V2.0",
+            brand: "SURESH NETWORK",
+            model: "SKS-DV-BOARD V2.0",
             revision: "R2.0",
-            serial: "PRM-2026-DEV-001",
-            assembled: "Chennai, India",
-            status: "ENGINEERING SAMPLE"
+            serial: "SKS-1988-DV-2110",
+            assembled: "KUALA LUMPUR, MALAYSIA",
+            status: "DEVELOPMENT PROSESSING"
         },
         socials: {
             github: GITHUB_URL,
@@ -35,15 +35,14 @@ export const portfolioData = {
             { label: "CORE", value: "ONLINE" },
             { label: "MODULES", value: "8 ONLINE" },
             { label: "UPTIME", value: "100%" },
-            { label: "BUILD", value: "2026.08" }
+            { label: "BUILD", value: "2026.09" }
         ],
-        heroLine: "ECE student specializing in Data Science with practical experience in Full Stack Development and Machine Learning.",
-        bio: "Electronics and Communication Engineering student specializing in Data Science at SRM Institute of Science and Technology, Ramapuram, with practical experience in Full Stack Development and Machine Learning.\n\nSkilled in Python, Django, React.js, TensorFlow, and Scikit-learn, with hands-on experience building scalable web applications and AI-powered solutions through industry internships. Eager to apply software engineering and machine learning expertise to develop impactful, real-world technologies.",
-        languages: [
+ heroLine:“Full Stack Developer and AI Enthusiast with hands-on experience building scalable web applications, automation systems, and intelligent solutions.”
+     bio:“Passionate Full Stack Developer with practical experience in designing, developing, and deploying modern web applications and AI-driven solutions. Skilled in Python, Django, React.js, JavaScript, TensorFlow, and Scikit-learn, with a strong foundation in software architecture, database design, and machine learning.Experienced in building responsive user interfaces, RESTful APIs, automation tools, and data-driven applications. Continuously exploring emerging technologies and best practices to create efficient, scalable, and impactful digital products that solve real-world challenges.” 
+    languages: [
             { name: "English", level: "Fluent" },
             { name: "Tamil", level: "Native" },
-            { name: "Hindi", level: "Advanced" },
-            { name: "Japanese", level: "Beginner" }
+            { name: "Malay", level: "Advanced" }
         ]
     },
     // Installed Hardware Modules — each is a distinct physical component on the board
